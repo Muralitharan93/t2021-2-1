@@ -1,1 +1,5 @@
-
+#number_series
+a=int(input("Please Enter the a value: "))
+for num in range(1, a+1):
+    if(num % 2 != 0):
+        print("{0}".format(num))
